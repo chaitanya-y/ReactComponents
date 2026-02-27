@@ -46,7 +46,7 @@ function Cell({ index, disabled, mark, turn, onClick }) {
   );
 }
 
-export default function TicTacToe() {
+ function TicTacToe() {
   const [board, setBoard] = useState(Array(9).fill(null));
   const [xIsPlaying, setIsXPlaying] = useState(true);
 

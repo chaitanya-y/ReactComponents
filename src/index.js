@@ -5,11 +5,15 @@ import {App} from './App';
 import reportWebVitals from './reportWebVitals';
 
 import TicTacToe from './components/TicTacToe';
+import TabsCont from './components/Tabcomponent';
+
+
+import TransferList from './problemsolving/ReactChallenges/TransferList/transferList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TicTacToe />
+    <TransferList />
   </React.StrictMode>
 );
 
