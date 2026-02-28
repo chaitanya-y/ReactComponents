@@ -8,12 +8,21 @@ import TicTacToe from './components/TicTacToe';
 import TabsCont from './components/Tabcomponent';
 
 
+
 import TransferList from './problemsolving/ReactChallenges/TransferList/transferList';
+import FlightBooker from './problemsolving/FlightBooker';
+import MortageCalculator from './problemsolving/MortageCalculator'; 
+
+
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TransferList />
+    <MortageCalculator />
   </React.StrictMode>
 );
 
